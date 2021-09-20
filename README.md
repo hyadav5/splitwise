@@ -17,7 +17,7 @@ Application support all the above mentioned functional requirement. The current 
 5) Split is only limited to EQUAL division.
 
 ### Design Diagram:
-![Alt text](/Users/hemanty/Desktop/SDs/splitwise.jpg?raw=true "Title")
+![Alt text](./documentation/splitwise.jpg?raw=true "Title")
 
 ### REST endpoints
 **/adduser**  = Add a user
