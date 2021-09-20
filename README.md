@@ -5,11 +5,11 @@ Sharing is caring
 * [Team Members](#team-members)
 * [Functional Requirement](#Funtional-Requirement)
 * [Scope](#Scope)
-* [Design Diagram](#Design Diagram)
-* [REST endpoints](#REST endpoints)
-* [Build And Run](#Build And Run)
-* [Test Data](#Test Data)
-* [Possible Improvements](#Possible Improvements)
+* [Design Diagram](#Design-Diagram)
+* [REST endpoints](#REST-endpoints)
+* [Build And Run](#Build-And-Run)
+* [Test Data](#Test-Data)
+* [Possible Improvements](#Possible-Improvements)
 
 ### <a name="team-members"></a>Team Members
 * "Hemant Yadav" <github# hyadav5>
@@ -29,10 +29,10 @@ Application support all the above mentioned functional requirement. The current 
 4) REST endpoints are exposed by the application just to ease the job of end user to make requests through curl/Postman.
 5) Split is only limited to EQUAL division.
 
-### <a name="Design Diagram"></a>Design Diagram
+### <a name="Design-Diagram"></a>Design Diagram
 ![Alt text](./documentation/splitwise.jpg?raw=true "Title")
 
-### <a name="REST endpoints"></a>REST endpoints
+### <a name="REST-endpoints"></a>REST endpoints
 **/adduser**  = Add a user
 
 Body: {
@@ -70,7 +70,7 @@ Body: {
 **/runsettlements** = Run settlement
 
 
-### <a name="Build And Run"></a>Build And Run
+### <a name="Build-And-Run"></a>Build And Run
 Available make commands:
 
     make clean
@@ -87,7 +87,7 @@ Default:
 The generated binary can be run simply like a script. It will open a REST serving port at 8080.
 
     ./splitwise
-### <a name="Test Data"></a>Test Data
+### <a name="Test-Data"></a>Test Data
 Once the application run, its is loaded with the below test data.
 1) Add 4 users: hemant, kd, pandey, shyam
 2) Add a group with the name: "flatmates"
@@ -96,7 +96,7 @@ Once the application run, its is loaded with the below test data.
 5) Add a group expense of 2000 paid by "hemant" and distributed among group member.
 5) Run settlement detailing the pending amount among them.
 
-### <a name="Possible Improvements"></a>Possible Improvements
+### <a name="Possible-Improvements"></a>Possible Improvements
 In the interest of time, following design consideration are ignored:
 1) We can use Swagger UI and REST endpoints, this will ease our http request and response handling.
 2) A middleware should have been added before the APIs to take care of request validation, authentication and authorization.
